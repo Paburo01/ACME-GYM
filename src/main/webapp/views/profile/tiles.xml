@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2018 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="profile/see_activities" extends="master.page">	
+		<put-attribute name="title" value="Profile: See Activities" />
+		<put-attribute name="body" value="/views/profile/see_activities.jsp" />
+	</definition>
+	
+	<definition name="profile/see_gyms" extends="master.page">	
+		<put-attribute name="title" value="Profile: See GYMs" />
+		<put-attribute name="body" value="/views/profile/see_gyms.jsp" />
+	</definition>
+	
+	<definition name="/profile/see_trainings" extends="master.page">
+		<put-attribute name="title" value="Profile: See trainings" />
+		<put-attribute name="body" value="/views/profile/see_trainings.jsp" />
+	</definition>
+	
+</tiles-definitions>
